@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="NaveenQA.GenProInterview.Listeners">
+</listener>
+	</listeners>
+
+	<test name="ValidateLogin">
+		<classes>
+			<class name="NaveenQA.GenProInterview.LoginTest" />
+		</classes>
+	</test>
+
+
+	<test name="ValidateAddToCart">
+		<classes>
+			<class name="NaveenQA.GenProInterview.ValidateAddtoCartTest" />
+		</classes>
+	</test>
+
+	<test name="ValidateViewCart">
+		<classes>
+			<class name="NaveenQA.GenProInterview.ValidateViewCart" />
+		</classes>
+	</test>
+
+	<test name="ValidateCheckoutInformation">
+		<classes>
+			<class name="NaveenQA.GenProInterview.ValidateCheckoutInformationTest" />
+		</classes>
+	</test>
+
+	<test name="ValidateCheckoutOverview">
+		<classes>
+			<class name="NaveenQA.GenProInterview.ValidateCheckoutOverviewTest" />
+		</classes>
+	</test>
+
+	<test name="ValidateCheckoutComplete">
+		<classes>
+			<class name="NaveenQA.GenProInterview.CheckOutCompleteTest" />
+		</classes>
+	</test>
+
+	<test name="ValidateLogout">
+		<classes>
+			<class name="NaveenQA.GenProInterview.LogoutTest" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
